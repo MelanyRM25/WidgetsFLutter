@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Humpty Dunty Tonti Monty"),
+          title: Text("WIDGETS EN FLUTTER"),
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
         ),
@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
               // ),
               Padding(
                 padding: const EdgeInsets.only(top: 15, bottom: 15),
-                child: Text("HUMTY DUMPTY"),
+                child: Text("GATO CON BOTAS"),
               ),
               //Imagen mediante archivos
               Expanded(child: Image.asset('assets/gato.webp')),
