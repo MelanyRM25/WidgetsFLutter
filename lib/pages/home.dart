@@ -23,13 +23,12 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             children: [
               SizedBox(height: 15),
-
               //WIDGET IMAGEN
-              //Imagen mediante URL
-              // Expanded(
-              //   child: Image.network(
-              //       'https://preview.redd.it/mqm1xazycee41.jpg?auto=webp&s=66841afa4d40760db841faec69864085d067e4e6'),
-              // ),
+              Imagen mediante URL
+              Expanded(
+                child: Image.network(
+                    'https://preview.redd.it/mqm1xazycee41.jpg?auto=webp&s=66841afa4d40760db841faec69864085d067e4e6'),
+              ),
               Padding(
                 padding: const EdgeInsets.only(top: 15, bottom: 15),
                 child: Text("GATO CON BOTAS"),
